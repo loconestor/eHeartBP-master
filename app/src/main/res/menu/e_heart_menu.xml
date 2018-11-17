@@ -12,9 +12,6 @@
         android:id="@+id/statistics"
         android:title="@string/statistics" />
     <item
-        android:id="@+id/settings"
-        android:title="@string/settings" />
-    <item
         android:id="@+id/close_session"
         android:title="@string/close_session" />
 </menu>

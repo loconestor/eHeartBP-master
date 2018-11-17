@@ -6,8 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".SignInActivity">
 
+    <AutoCompleteTextView
+        android:id="@+id/login_mail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:text=""
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+        <requestFocus />
+    </AutoCompleteTextView>
 
-    <EditText
+<!--    <EditText
         android:id="@+id/login_mail"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -21,6 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+        -->
 
     <EditText
         android:id="@+id/login_pass"
